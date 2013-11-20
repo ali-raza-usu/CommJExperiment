@@ -1,0 +1,11 @@
+18:23:53,507 DEBUG Server.java: 57 - Channel Establishd
+18:23:57,157 DEBUG MessageJoinPointTracker.aj: 108 - remaining bytes are [before flip] 1474
+18:23:57,158 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 574
+18:24:02,492 DEBUG LoggingTimeAspectOWR.aj: 25 - Receiver: Server - Message TranslationMessage [ID = ca19ecf3-da4e-4f94-af14-201612e9bf32] at time 18:24:02
+18:24:08,164 DEBUG Server.java: 80 - Received adasd
+18:24:08,366 DEBUG MessageJoinPointTracker.aj: 200 - Sending bytes of length 631
+18:24:08,367 DEBUG MessageJoinPointTracker.aj: 203 - ChannelWrite : Sending message : class utilities.TranslationMessage
+18:24:08,369 DEBUG MessageJoinPointTracker.aj: 207 -  setting protocol null
+18:24:08,369 DEBUG MessageJoinPointTracker.aj: 209 -  setting role null
+18:24:08,370 DEBUG MessageJoinPointTracker.aj: 211 -  setting protocolRole universe.ProtocolRole@16fb17e5
+18:24:08,371 DEBUG Server.java: 93 - Sending Levenshtein Distance between string : adasd and string adadas is 3

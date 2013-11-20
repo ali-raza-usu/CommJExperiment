@@ -1,0 +1,11 @@
+18:23:55,122 DEBUG Client.java: 41 - Channel connected!
+18:23:57,146 DEBUG MessageJoinPointTracker.aj: 200 - Sending bytes of length 574
+18:23:57,148 DEBUG MessageJoinPointTracker.aj: 203 - ChannelWrite : Sending message : class utilities.TranslationMessage
+18:23:57,148 DEBUG MessageJoinPointTracker.aj: 207 -  setting protocol null
+18:23:57,148 DEBUG MessageJoinPointTracker.aj: 209 -  setting role null
+18:23:57,149 DEBUG MessageJoinPointTracker.aj: 211 -  setting protocolRole universe.ProtocolRole@155a792d
+18:23:57,153 DEBUG Client.java: 62 - Sending strings 'adasd' and 'adadas'
+18:24:08,371 DEBUG MessageJoinPointTracker.aj: 108 - remaining bytes are [before flip] 1417
+18:24:08,372 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 631
+18:24:09,869 DEBUG LoggingTimeAspectOWR.aj: 25 - Receiver: Client - Message TranslationMessage [ID = d47b3c67-b46f-46b9-ae0c-8556e2e6f528] at time 18:24:09
+18:24:09,870 DEBUG Client.java: 75 - Received Levenshtein Distance between string : adasd and string adadas is 3
