@@ -1,2 +1,0 @@
-17:37:46,593 DEBUG LoggingTimeAspectRR.aj: 19 - Sender: Server - Message TranslationMessage [ID = c5817144-ef6e-43f1-821d-f3737ac8e188] at time 17:37:46
-17:37:46,608 DEBUG LoggingTimeAspectRR.aj: 28 - Receiver: Client - Message TranslationMessage [ID = c5817144-ef6e-43f1-821d-f3737ac8e188] at time 17:37:46
