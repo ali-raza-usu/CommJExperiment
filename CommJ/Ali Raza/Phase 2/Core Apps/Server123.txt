@@ -9,3 +9,5 @@
 18:24:08,369 DEBUG MessageJoinPointTracker.aj: 209 -  setting role null
 18:24:08,370 DEBUG MessageJoinPointTracker.aj: 211 -  setting protocolRole universe.ProtocolRole@16fb17e5
 18:24:08,371 DEBUG Server.java: 93 - Sending Levenshtein Distance between string : adasd and string adadas is 3
+ASDADASDA
+SDADADAS
