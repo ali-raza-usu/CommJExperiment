@@ -1,0 +1,10 @@
+02:27:23,384 DEBUG LoggingTimeAspectMS.aj: 25 - MS Sender: Server - Message TranslationMessage [ID = 55d4a762-0693-4d3a-a1ee-2cd173836a1a] at time 02:27:23
+02:27:23,387 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is Initial
+02:27:23,387 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is ServerRcvdRequest
+02:27:23,388 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  false
+02:27:23,389 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationMessage
+02:27:24,204 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is ClientSendRequest
+02:27:24,205 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is ClientRcvdResponse
+02:27:24,205 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  true
+02:27:24,206 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationMessage
+02:27:24,208 DEBUG LoggingTimeAspectMS.aj: 34 - MS Receiver: Client - Message TranslationMessage [ID = 55d4a762-0693-4d3a-a1ee-2cd173836a1a] at time 02:27:24

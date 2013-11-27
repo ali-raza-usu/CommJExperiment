@@ -1,0 +1,10 @@
+03:47:25,987 DEBUG LoggingTimeAspectMS.aj: 25 - Multistep: MS Sender: Server - Message TranslationRequestMessage [ID = c1a57ae4-7167-4702-a085-73b77fa922f6] at time 03:47:25
+03:47:25,988 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is Initial
+03:47:25,988 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is Initial
+03:47:25,988 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  false
+03:47:25,991 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationRequestMessage
+03:47:26,810 DEBUG LoggingTimeAspectMS.aj: 25 - Multistep: MS Sender: Client - Message TranslationResponseMessage [ID = c1a57ae4-7167-4702-a085-73b77fa922f6] at time 03:47:26
+03:47:26,810 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is Initial
+03:47:26,811 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is Initial
+03:47:26,811 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  false
+03:47:26,814 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationResponseMessage
