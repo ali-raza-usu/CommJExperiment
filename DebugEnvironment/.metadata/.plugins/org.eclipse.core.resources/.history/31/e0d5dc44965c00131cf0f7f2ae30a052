@@ -1,0 +1,2 @@
+20:41:29,562 DEBUG FTPServer.java: 76 - FTP Server Accepted the FTP Client Connection Request
+20:41:32,554 DEBUG FTPServer.java: 103 - Server sent the list of files to the client

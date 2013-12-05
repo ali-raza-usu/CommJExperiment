@@ -1,0 +1,10 @@
+20:41:34,395 DEBUG FTPClient.java: 144 - java.lang.ClassCastException: utilities.messages.ver0.FileTransferAck cannot be cast to utilities.messages.ver1.FileTransferAck
+	at aspects.ows.VersionOnSend.ajc$around$aspects_ows_VersionOnSend$1$bbaa3c4e(VersionOnSend.aj:36)
+	at baseaspects.communication.OneWaySendAspect.Begin(OneWaySendAspect.aj:32)
+	at baseaspects.communication.OneWaySendAspect.ajc$around$baseaspects_communication_OneWaySendAspect$1$794d6b5(OneWaySendAspect.aj:25)
+	at joinpointracker.MessageJoinPointTracker.SendJoinPoint(MessageJoinPointTracker.aj:247)
+	at joinpointracker.MessageJoinPointTracker.ajc$around$joinpointracker_MessageJoinPointTracker$3$48e97de4(MessageJoinPointTracker.aj:180)
+	at application.FTPClient.coreClient(FTPClient.java:93)
+	at application.FTPClient.run(FTPClient.java:162)
+
+20:41:34,397 DEBUG FTPClient.java: 148 - Client is closing all the connections 
