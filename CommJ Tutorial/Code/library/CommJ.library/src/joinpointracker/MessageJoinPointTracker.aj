@@ -58,6 +58,7 @@ public aspect MessageJoinPointTracker {
 			ByteBuffer tempBuf = _buffer.duplicate();	    
 			tempBuf.flip(); 
 			logger.debug("remaining bytes received are are "+ tempBuf.remaining());
+			//System.out.println("MSGJPTracker channel read : remaining bytes received are are "+ tempBuf.remaining() + " tempBuf : capacity " + tempBuf.capacity() + " actual _buffer capacity "+ _buffer.capacity() );
 			byte[] bytes = new byte[tempBuf.remaining()];			
 			tempBuf.get(bytes);	
 			
@@ -95,7 +96,9 @@ public aspect MessageJoinPointTracker {
 	    	if(receiveJp.getConversation() != null){
 	    		message = ReadMessage(receiveJp.getBytes());
 	    	}
-	    		message.setConversation( receiveJp.getConversation());
+	    		//System.out.println(" MsjJPTracker : received message "+ message + " receivejp "+ receiveJp);
+	    		if(message != null)
+	    			message.setConversation( receiveJp.getConversation());
 	    	
 	    	_buffer.clear();
 	  		_buffer.put(ByteBuffer.wrap(receiveJp.getBytes()));	    	
@@ -161,6 +164,7 @@ public aspect MessageJoinPointTracker {
     	sendJp.setJp(thisJoinPoint);
     	sendJp.setBytes(bytes);
     	IMessage message = decode(bytes);
+
  //   	logger.debug("ChannelWrite : Sending message : "+ message.getClass());
     	Socket socket = _channel.socket();
    		sendJp.setConversation(message.getConversation());
@@ -180,11 +184,13 @@ public aspect MessageJoinPointTracker {
     	IMessage tempMsg = Encoder.decode(sendJp.getBytes());
     	
     	if(tempMsg != null){
-    	message.setConversation(sendJp.getConversation());
+    		message.setConversation(sendJp.getConversation());
     	sendJp.setBytes(Encoder.encode(message));
     	}
     	
     	_data = ByteBuffer.wrap(sendJp.getBytes());
+		System.out.println(" MsjJPTracker sending : message "+ message + " receivejp "+ receiveJp + " remaining bytes "+ sendJp.getBytes().length);
+
     	//logger.debug("Now writing date ");
         return proceed(_channel, _data);
     }
@@ -220,7 +226,7 @@ public aspect MessageJoinPointTracker {
     	IMessage tempMsg = Encoder.decode(sendJp.getBytes());
     	
     	if(tempMsg != null){
-    	message.setConversation(sendJp.getConversation());
+    		message.setConversation(sendJp.getConversation());
     	sendJp.setBytes(Encoder.encode(message));
     	}
     	

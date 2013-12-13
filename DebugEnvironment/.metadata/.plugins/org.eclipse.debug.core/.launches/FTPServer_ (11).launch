@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ajdt.launching.AspectJApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/coreApps.FTP/src/application/FTPServer_.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="application.FTPServer_"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="coreApps.FTP"/>
+</launchConfiguration>

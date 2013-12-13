@@ -13,5 +13,10 @@
     "coordinate": "jre:jre:zip:call:1.0.0",
     "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
     "status": "RESOLVED"
+  },
+  "/Users/aliraza/Desktop/Office/Experiment 11202013/CommJExperiment/DebugEnvironment/library/library/CommJ.library/src": {
+    "location": "/Users/aliraza/Desktop/Office/Experiment 11202013/CommJExperiment/DebugEnvironment/library/library/CommJ.library/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/aliraza/Desktop/Office/Experiment 11202013/CommJExperiment/DebugEnvironment/library/library/CommJ.library/src\u0027. Skipped."
   }
 }

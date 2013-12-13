@@ -10,5 +10,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/3rd-party"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/3rd-party-libs"/>
+	<classpathentry kind="lib" path="/Users/aliraza/Desktop/Office/Experiment 11202013/CommJExperiment/third-party/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/aliraza/Desktop/Office/Experiment 11202013/CommJExperiment/third-party/junit-4.6.jar"/>
+	<classpathentry kind="lib" path="/Users/aliraza/Desktop/Office/Experiment 11202013/CommJExperiment/third-party/log4j-1.2.15.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

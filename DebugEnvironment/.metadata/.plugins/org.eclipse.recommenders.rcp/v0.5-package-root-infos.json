@@ -26,19 +26,6 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "3f5821c825cc5ff1fbc557abb53dafe452c370ed",
-    "jarFileModificationDate": "2013-04-07T16:10:53-06:00",
-    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/resources.jar",
-    "javaRuntime": true
-  },
-  {
     "symbolicName": "junit",
     "version": {
       "major": -1,
@@ -50,6 +37,19 @@
     "jarFileModificationDate": "2012-05-26T04:46:30-06:00",
     "location": "/Applications/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar",
     "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3f5821c825cc5ff1fbc557abb53dafe452c370ed",
+    "jarFileModificationDate": "2013-04-07T16:10:53-06:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/resources.jar",
+    "javaRuntime": true
   },
   {
     "symbolicName": "jre",
@@ -358,9 +358,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "a85d5af49e138a0adefc26bf22d2cfc8c754e6dd",
-    "jarFileModificationDate": "2013-08-07T20:11:25-06:00",
-    "location": "/System/Library/Java/Extensions/jai_codec.jar",
+    "jarFileFingerprint": "1131fd02e5ae3337bb6f58f41b5bd785bfc3b2c2",
+    "jarFileModificationDate": "2013-10-10T12:32:03-06:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar",
     "javaRuntime": true
   },
   {
@@ -371,9 +371,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "1131fd02e5ae3337bb6f58f41b5bd785bfc3b2c2",
-    "jarFileModificationDate": "2013-10-10T12:32:03-06:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar",
+    "jarFileFingerprint": "a85d5af49e138a0adefc26bf22d2cfc8c754e6dd",
+    "jarFileModificationDate": "2013-08-07T20:11:25-06:00",
+    "location": "/System/Library/Java/Extensions/jai_codec.jar",
     "javaRuntime": true
   },
   {
@@ -410,9 +410,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "79faf6c92c0f506030104dd2fae3213115359e61",
-    "jarFileModificationDate": "2013-04-07T16:10:53-06:00",
-    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/charsets.jar",
+    "jarFileFingerprint": "f0175c4c28f08b9236108499c33d6542c0bcd8b4",
+    "jarFileModificationDate": "2013-08-07T20:15:41-06:00",
+    "location": "/System/Library/Java/Extensions/j3daudio.jar",
     "javaRuntime": true
   },
   {
@@ -423,9 +423,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "f0175c4c28f08b9236108499c33d6542c0bcd8b4",
-    "jarFileModificationDate": "2013-08-07T20:15:41-06:00",
-    "location": "/System/Library/Java/Extensions/j3daudio.jar",
+    "jarFileFingerprint": "79faf6c92c0f506030104dd2fae3213115359e61",
+    "jarFileModificationDate": "2013-04-07T16:10:53-06:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/charsets.jar",
     "javaRuntime": true
   },
   {
@@ -488,9 +488,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "63fbdd9c7e93573cc15ee487950217886be2aef6",
-    "jarFileModificationDate": "2013-10-23T02:38:19-06:00",
-    "location": "/System/Library/Java/Extensions/dns_sd.jar",
+    "jarFileFingerprint": "a84551888636d4e693dc9b483ad69a6a78ad9d74",
+    "jarFileModificationDate": "2013-10-23T02:38:18-06:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar",
     "javaRuntime": true
   },
   {
@@ -514,9 +514,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "a84551888636d4e693dc9b483ad69a6a78ad9d74",
-    "jarFileModificationDate": "2013-10-23T02:38:18-06:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar",
+    "jarFileFingerprint": "63fbdd9c7e93573cc15ee487950217886be2aef6",
+    "jarFileModificationDate": "2013-10-23T02:38:19-06:00",
+    "location": "/System/Library/Java/Extensions/dns_sd.jar",
     "javaRuntime": true
   }
 ]

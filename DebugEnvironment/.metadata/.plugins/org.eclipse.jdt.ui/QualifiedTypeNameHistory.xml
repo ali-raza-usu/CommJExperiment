@@ -2,4 +2,11 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="utilities.Encoder"/>
 <fullyQualifiedTypeName name="utilities.messages.ver0.FileTransferAck"/>
+<fullyQualifiedTypeName name="aspects.ms.FTPServer_SM"/>
+<fullyQualifiedTypeName name="application.FTPServer"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="application.FTPClient"/>
+<fullyQualifiedTypeName name="application.FTPClient_"/>
 </qualifiedTypeNameHistroy>
